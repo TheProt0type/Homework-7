@@ -1,0 +1,435 @@
+header {
+    background-image: url(../img/37.jpg);
+    padding-bottom: 160px;
+    background-position: center;
+    position: relative;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navigation-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+
+ /* Заголовки в хедере возле логотипа */
+
+ul.navigation-menu a {
+    line-height: 61px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Agency FB V2', sans-serif;
+    font-size: 20px;
+ 
+} 
+
+a:hover{
+    text-shadow: 0 0 10px #59e334;
+    -webkit-text-shadow:0 0 10px #36fd00; 
+    text-shadow:0 0 10px #931eee;  
+}
+
+ul.navigation-menu li {
+    margin-right: 52px;
+}
+
+ul.navigation-menu li:last-child {
+    margin-right: 0px;
+}
+
+.content {
+    display: flex; 
+}
+
+.slider {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.2);
+}
+
+.btn{
+  position: absolute;
+  right: 225px;
+}
+
+.slider-img{
+    margin-top: -25px;
+    position: relative; 
+}
+
+.slider-img a {
+    position: absolute;
+    transition: 1s;
+    margin-top: 40%;
+    margin-left: -52%;
+}
+
+.slider-img a:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.slider-discr{
+    width: 500px;
+    margin-top: 90px;
+}
+
+.radio-slider-container{
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+
+span{
+    font-family: 'Agency FB V2', sans-serif;
+}
+
+.text-one-discr{
+    font-family: 'Agency FB V2', sans-serif;
+    color: #fefefe;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+
+.text-two-discr{
+    top: 9px;
+    margin-left: -50px;
+    font-family: 'Agency FB V2', sans-serif;
+    color: #a245eb;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-top: 15px;
+    font-family: 'Agency FB V2', sans-serif;
+    text-align: left;
+    color: #fefefe;
+    font-size: 22px;
+}
+
+ /* Меню с тектом в три строки */
+
+main{
+ background-color: #b29fc4;
+}
+
+.inform-menu{  
+    background-color: #a341ee;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.text{
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  font-family: 'Agency FB V2', sans-serif;
+  font-size: 25px;
+}
+
+.inform-one{
+   width: 250px;
+   margin-top: 75px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.rd-one{
+   display: flex;
+   justify-content: flex-end;
+   font-size: 18px;
+   color: #160523;
+}
+
+.inform-two{
+   width: 250px;
+   margin-top: 75px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.rd-two{
+   display: flex;
+   justify-content: flex-end;
+   font-size: 18px;
+   color: #160523;
+}
+
+.inform-three{
+   width: 250px;
+   margin-top: 75px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.rd-three{
+   display: flex;
+   justify-content: flex-end;
+   font-size: 18px;
+   color: #160523;
+}
+
+.contacts{
+  display: flex;
+  justify-content: center;
+}
+
+.text-contact-one{
+  background-color: #ad70dc;
+  width: 350px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-bottom: 115px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.ebalo{
+  position: absolute;
+  left: -25px;
+  top: -15px;
+}
+
+.pin-1{
+  text-align: center;
+}
+
+.SH-1{
+  color: #6200b1;
+}
+
+.ttt{
+  color: black;
+}
+
+.text-contact-two{
+  background-color: #ad70dc;
+  width: 490px;
+  height: 200px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-bottom: 115px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.pin-2{
+  text-align: center;
+  color: #6200b1;
+}
+
+.citat-one{
+  display: inline-flex;
+  flex-direction: column-reverse;
+  font-family: 'Agency FB V2', sans-serif;
+}
+
+.images{
+  position: absolute;
+  top: 50px;
+}
+
+h2{
+  position: relative;
+  left: 50px;
+  bottom: 85px;
+  font-size: 20px;
+}
+
+.o{
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  font-size: 15px;
+}
+
+h3{
+  position: relative;
+  left: 50px;
+  top: 5px;
+  font-size: 20px;
+}
+
+.l{
+  position: relative;
+  left: 50px;
+  top: 40px;
+  font-size: 15px;
+}
+
+h4{
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 20px;
+}
+
+.m{
+  position: relative;
+  left: 50px;
+  top: 125px;
+  font-size: 15px;
+}
+
+.img-1{
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.img-2{
+  position: absolute;
+  margin-top: 45px;
+  margin-left: -10px;
+}
+
+.img-3{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -10px;
+}
+
+.eng{
+  position: relative;
+}
+
+.www{
+  width: 250px;
+   margin-top: 75px;
+   padding-left: 20px;
+  color: black;
+}
+
+.text-bottom{
+  position: absolute;
+  bottom: -20px;
+  font-size: 18px;
+  color: black;
+  right: 0px;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-right: 90px;
+  padding-bottom: 30px;
+  padding-left: 90px;
+  border: 1px solid black;
+}
+
+.news{
+  display: flex;
+  justify-content: space-around;
+}
+
+.news-one{
+   width: 250px;
+   margin-top: 70px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.bull{
+  font-size: 35px;
+}
+
+.copyright{
+   font-size: 15px;
+   color: #973ae3;
+}
+
+.er{
+  color: #973ae3;
+}
+
+.text-news-one{
+  color: black;
+}
+
+.news-two{
+   width: 250px;
+   margin-top: 35px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.text-news-two{
+  color: black;
+}
+
+.news-three{
+   width: 250px;
+   margin-top: 35px;
+   color: #ffffff;
+   padding-left: 20px;
+}
+
+.text-news-three{
+  color: black;
+  margin: 20px;
+}
+
+ /* футер */
+
+footer{
+  background-image: url(../img/37.jpg);
+  height: 70px;
+}
+
+.footer-navigation-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul.footer-navigation-menu a {
+    line-height: 61px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Agency FB V2', sans-serif;
+    font-size: 15px;
+ 
+} 
+
+a:hover{
+    text-shadow: 0 0 10px #59e334;
+    -webkit-text-shadow:0 0 10px #36fd00; 
+    text-shadow:0 0 10px #931eee;  
+}
+
+ul.footer-navigation-menu li {
+    margin-right: 52px;
+}
+
+ul.footer-navigation-menu li:last-child {
+    margin-right: 0px;
+}
+
+.designed{
+  font-size: 15px;
+  position: absolute;
+  right: 155px;
+}
